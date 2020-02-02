@@ -1,16 +1,15 @@
 {
-    "name": "madhu/hello-composer",
-    "description": "A simple hello world composer package",
-
-    "authors": [
-        {
-            "name": "madhu patel",
-            "email": "madhupatel88888@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": {"madhu\\HelloWorld\\": "src/"}
-    },
-    "require": {}
+	"name": "madhu/hello-composer",
+	"description": "A simple hello world composer package",
+	"authors": [{
+		"name": "madhu patel",
+		"email": "madhupatel88888@gmail.com"
+	}],
+	"minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"madhu\\HelloWorld\\": "src/"
+		}
+	},
+	"require": {}
 }
